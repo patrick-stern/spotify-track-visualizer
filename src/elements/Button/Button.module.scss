@@ -1,0 +1,28 @@
+.button {
+    font-family: var(--font-roboto);
+    @include font-size(16);
+    border: 0;
+
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: rem(12) rem(30);
+    border-radius: 12px;
+
+    &.spotify {
+        background-color: #1DB954;
+        color: #fff;
+        text-transform: uppercase;
+
+        &:hover,
+        &:focus {
+            background-color: rgba(29, 185, 84, 0.8);
+        }
+
+        .icon {
+            margin-left: rem(10);
+        }
+    }
+}

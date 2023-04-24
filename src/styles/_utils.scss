@@ -1,0 +1,16 @@
+@mixin font-size($pxValue, $isImportant: false, $standard-size: 16) {
+    @if $isImportant {
+        font-size: $pxValue + px !important;
+        font-size: ($pxValue/$standard-size) + rem !important;
+    }
+
+    @else {
+        font-size: $pxValue + px;
+        font-size: ($pxValue/$standard-size) + rem;
+    }
+}
+
+@function rem($pixels, $default-size: 16) {
+    $remSize: $pixels / $default-size;
+    @return #{$remSize}rem;
+}
