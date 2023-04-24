@@ -33,4 +33,4 @@ To run this project, you will need to add the following environment variables to
 | `SPOTIFY_CLIENT_ID`  | your spotify client id |
 | `SPOTIFY_CLIENT_SECRET` | your spotify client secret |
 | `SPOTIFY_REDIRECT_URI` | your spotify redirect uri|
-| `PROJECT_ROOT` |  e.g. http://localhost:3000 |
+| `PROJECT_ROOT` |  default: http://localhost:3000 |
