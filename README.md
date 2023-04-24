@@ -14,7 +14,7 @@ run ``cp .env.example .env.local`` inside project root and edit the .env.local f
 Installs the dependencies.
 
 
-### Development
+## Development
 
 ```bash
 npm run dev
