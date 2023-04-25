@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Button from '@/elements/Button/Button';
+import ParticlesWaves from '../Sketches/ParticlesWaves';
 
 import styles from './Login.module.scss';
 
@@ -11,6 +12,8 @@ type LoginProps = {
 const Login = ({ onClickLogin }: LoginProps) => {
   return (
     <div className={styles.container}>
+        <ParticlesWaves />
+
         <div className={styles.card}>
             <h1 className={styles.title}>SPOTIFY TRACK VISUALIZER</h1>
             <Button 

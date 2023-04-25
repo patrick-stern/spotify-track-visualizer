@@ -21,9 +21,11 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "request": "^2.88.2",
-    "sanitize.css": "^13.0.0"
+    "sanitize.css": "^13.0.0",
+    "three": "^0.151.3"
   },
   "devDependencies": {
+    "@types/three": "^0.150.2",
     "query-string": "^8.1.0",
     "sass": "^1.62.0",
     "typescript": "5.0.4"
