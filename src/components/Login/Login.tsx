@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Button from '@/elements/Button/Button';
+import Button from '@/components/Button/Button';
 import ParticlesWaves from '../Sketches/ParticlesWaves';
 
 import styles from './Login.module.scss';
